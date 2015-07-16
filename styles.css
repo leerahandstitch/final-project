@@ -1,0 +1,86 @@
+body {
+  background: url(http://hdpictwall.com/wp-content/uploads/2015/04/pink-flowers-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.headerReplacement {
+   text-indent: -9999px;
+
+   width: 800px;
+   height: 250px;
+   background: url(http://i.imgur.com/VEKSQjb.jpg) #cccccc no-repeat;
+    text-align:center;
+    margin: 0 auto;
+    padding:0px;
+    border-style: dotted;
+    border-color: pink;
+}
+
+h1 {
+  font-size: 250%;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: pink;
+}
+
+/* selected link */
+a:active {
+    color: pink;
+}
+
+#id {
+  color: blue;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-align: center; 
+}
+
+a {
+    text-align: center;
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+  float: left;
+  margin-left: 250px;
+  width: 240px;
+  height: 320px;
+  border-color:pink;
+  border-style:dotted;
+}
+
+.description {
+  color: black;
+  margin-right: 250px;
+}
+
+.contact {
+  margin-left: 620px;
+}
